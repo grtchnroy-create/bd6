@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>免费领取2大福利｜1-6年级计算打卡材料 & 敏敏老师数学思维课15节</title>
+  <meta name="description" content="选择年级即可领：①1-6年级计算打卡材料 ② 敏敏老师数学思维课15节（每日限量20个）。添加老师微信：sxmmls6 获取福利。" />
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --accent:#f59e0b;
+      --accent-2:#facc15;
+      --text:#111827;
+      --muted:#6b7280;
+      --ok:#16a34a;
+      --warn:#b45309;
+      --shadow: 0 10px 28px rgba(17,24,39,.08);
+      --radius: 18px;
+      --border:#e5e7eb;
+      --danger:#dc2626;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, "Noto Sans CJK SC", sans-serif;
+      background: var(--bg);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 60px;}
+    header{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;margin-top:6px;margin-bottom:12px;}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:linear-gradient(180deg, rgba(250,204,21,.28), rgba(245,158,11,.18));color:#92400e;font-weight:700;letter-spacing:.5px;box-shadow:0 0 0 1px rgba(245,158,11,.35) inset, var(--shadow);font-size:14px;}
+    h1{font-size:clamp(22px, 4.2vw, 36px);line-height:1.35;margin:0;font-weight:800;letter-spacing:.2px;text-wrap:balance;}
+    h1 strong{color:var(--accent)}
+    .limit{margin-top:2px;color:var(--warn);font-weight:700;font-size:clamp(14px, 3.2vw, 16px);}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+    @media (max-width:520px){.grid{grid-template-columns:repeat(2,1fr)}}
+    button.grade{width:100%;border:1px solid var(--border);background:linear-gradient(180deg, rgba(245,158,11,.08), rgba(250,204,21,.06));color:#7c2d12;padding:18px 6px;border-radius:16px;font-size:clamp(18px, 4.5vw, 22px);font-weight:900;letter-spacing:.5px;cursor:pointer;transition:transform .06s ease, box-shadow .2s ease, background .2s ease;box-shadow:0 6px 16px rgba(245,158,11,.12);outline:none;-webkit-tap-highlight-color: transparent;}
+    button.grade:hover{transform:translateY(-1px)}
+    button.grade:active{transform:translateY(1px) scale(.99)}
+    .h2line{font-size:clamp(18px,4.2vw,22px);letter-spacing:.2px;margin:0}
+    .cta-inline{margin:6px 0 12px 0;font-size:clamp(18px,4.2vw,22px);color:var(--muted);}
+    .result{margin-top:18px;display:none;}
+    .result.show{display:block}
+    .panel{background:var(--card);border:1px dashed rgba(245,158,11,.45);border-radius:16px;padding:16px;}
+    .note-top{margin:0 0 10px 0;font-size:clamp(18px,4.2vw,22px);color:var(--muted);text-align:left;}
+    .wx-line{display:flex;align-items:center;gap:10px;padding:12px 12px;border-radius:12px;background:rgba(250,204,21,.10);border:1px solid rgba(245,158,11,.35);font-size:clamp(18px, 4.5vw, 22px);font-weight:900;color:#7c2d12;justify-content:center;flex-wrap:wrap;}
+    .wx-id{font-variant-ligatures:none;letter-spacing:.6px;user-select:all;-webkit-user-select:all;cursor:pointer;}
+    .copy{padding:10px 14px;border-radius:10px;border:none;background:linear-gradient(180deg, rgba(22,163,74,.18), rgba(22,163,74,.12));color:#065f46;font-weight:900;cursor:pointer;box-shadow:0 6px 14px rgba(22,163,74,.18), inset 0 0 0 1px rgba(22,163,74,.35);transition:transform .06s ease;}
+    .copy:active{transform:translateY(1px) scale(.98)}
+    .note{margin-top:10px;color:var(--muted);font-size:clamp(14px,3.2vw,16px);line-height:1.6;text-align:center;}
+    footer{margin-top:34px;text-align:center;color:var(--muted);font-size:12px;}
+
+    .benefits-wrap{display:inline-block;text-align:left;line-height:1.4;margin-top:6px;}
+    .benefit-line{display:block;font-weight:800;color:var(--accent);}
+
+    .modal-mask{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:20px;z-index:50;}
+    .modal{background:#fff;border-radius:16px;max-width:540px;width:100%;box-shadow:var(--shadow);border:1px solid var(--border);}
+    .modal header{padding:16px 18px;border-bottom:1px solid var(--border);align-items:flex-start;text-align:left;}
+    .modal header h3{margin:0;font-size:18px;color:#111827;}
+    .modal .content{padding:18px;}
+    .input-row{display:flex;gap:10px;align-items:center;}
+    .wx-input{flex:1;border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:18px;color:#111827;background:#fff;}
+    .btn-row{margin-top:12px;display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;}
+    .btn{padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:#fff;cursor:pointer}
+    .btn.primary{background:linear-gradient(180deg, rgba(245,158,11,.16), rgba(250,204,21,.12));border-color:rgba(245,158,11,.45);font-weight:700;color:#7c2d12;}
+    .helper{margin-top:8px;color:#6b7280;font-size:14px;line-height:1.6}
+    .danger{color:var(--danger);font-weight:700;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">🎁 免费领取 · 每日限量20个</div>
+      <h1>
+        免费领取2大福利：
+        <br>
+        <span class="benefits-wrap">
+          <span class="benefit-line">① 1-6年级计算打卡材料</span>
+          <span class="benefit-line">② 敏敏老师数学思维课15节</span>
+        </span>
+      </h1>
+      <div class="limit">今日名额剩余：<span id="quota">--</span> 个</div>
+    </header>
+
+    <section class="card" aria-labelledby="pick">
+      <h2 id="pick" class="h2line">👇 选择孩子年级</h2>
+      <div class="cta-inline">（点击年级后，将显示老师微信号）</div>
+
+      <div class="grid" role="list">
+        <button class="grade" data-grade="1">一年级</button>
+        <button class="grade" data-grade="2">二年级</button>
+        <button class="grade" data-grade="3">三年级</button>
+        <button class="grade" data-grade="4">四年级</button>
+        <button class="grade" data-grade="5">五年级</button>
+        <button class="grade" data-grade="6">六年级</button>
+      </div>
+
+      <div id="result" class="result">
+        <div class="panel">
+          <p class="note-top">添加微信后立即发放（先到先得）。</p>
+          <div class="wx-line">
+            <span>微信号：</span>
+            <span id="wx" class="wx-id" title="点击可复制">sxmmls6</span>
+            <button id="copyBtn" class="copy" aria-label="复制微信号">复制</button>
+            <button id="copyAlt" class="btn" style="border-color:rgba(245,158,11,.45)">复制失败？点这里</button>
+          </div>
+          <div class="note">添加成功后，记得<span style="color:#b45309;font-weight:700;">回复敏敏老师孩子的年级</span>，方便按年级发放资料与课程。</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>© <span id="year"></span> 敏敏老师 · 数学思维</footer>
+  </div>
+
+  <div id="mask" class="modal-mask" role="dialog" aria-modal="true" aria-labelledby="m-title">
+    <div class="modal">
+      <header><h3 id="m-title">手动复制（100%可用）</h3></header>
+      <div class="content">
+        <div class="input-row">
+          <input id="wxInput" class="wx-input" value="sxmmls6" readonly />
+          <button id="mCopy" class="btn primary">复制</button>
+          <button id="mClose" class="btn">关闭</button>
+        </div>
+        <div class="helper">如果系统限制了自动复制：<br>① 点击上方输入框，会自动全选 → 再点“复制”或系统的复制按钮；<br>② 或者长按选择复制。<span class="danger">成功后请回到微信添加。</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      const $ = s => document.querySelector(s);
+      const $$ = s => Array.from(document.querySelectorAll(s));
+      const result = $("#result");
+      const copyBtn = $("#copyBtn");
+      const copyAlt = $("#copyAlt");
+      const wxText = $("#wx");
+      const quotaEl = $("#quota");
+      const mask = $("#mask");
+      const wxInput = $("#wxInput");
+      const mCopy = $("#mCopy");
+      const mClose = $("#mClose");
+
+      function dailyKey(){ const d = new Date(); return "quota-"+d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate(); }
+      function ensureQuota(){
+        const key = dailyKey();
+        let v = localStorage.getItem(key);
+        if(!v){
+          v = Math.floor(Math.random()*15)+6; 
+          try { localStorage.clear(); } catch(e){}
+          try { localStorage.setItem(key, String(v)); } catch(e){}
+        }
+        quotaEl.textContent = v;
+      }
+      ensureQuota();
+
+      const urlParams = new URLSearchParams(location.search);
+      const hashGrade = location.hash && location.hash.replace("#","");
+      const gradeInit = urlParams.get("grade") || (["1","2","3","4","5","6"].includes(hashGrade) ? hashGrade : null);
+
+      function pickGrade(g){
+        result.classList.add("show");
+        result.scrollIntoView({behavior:"smooth", block:"start"});
+        const p = new URLSearchParams(location.search);
+        p.set("grade", g);
+        history.replaceState(null, "", location.pathname + "?" + p.toString() + "#" + g);
+      }
+      $$(".grade").forEach(btn => btn.addEventListener("click", () => pickGrade(btn.getAttribute("data-grade")), {passive:true}));
+      if(gradeInit){ pickGrade(gradeInit); }
+
+      function selectAndCopyUsingInput(text){
+        const ta = document.createElement("input");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.focus({ preventScroll: true });
+        ta.select();
+        ta.setSelectionRange(0, 99999);
+        let ok = false;
+        try { ok = document.execCommand("copy"); } catch(e){ ok = false; }
+        document.body.removeChild(ta);
+        return ok;
+      }
+      async function copyText(text){
+        if (navigator.clipboard && window.isSecureContext) {
+          try { await navigator.clipboard.writeText(text); return true; } catch(e){}
+        }
+        if (selectAndCopyUsingInput(text)) return true;
+        try {
+          const span = document.createElement("span");
+          span.textContent = text;
+          span.style.whiteSpace = "pre";
+          span.style.position = "fixed";
+          span.style.top = "-9999px";
+          document.body.appendChild(span);
+          const range = document.createRange();
+          range.selectNodeContents(span);
+          const sel = window.getSelection();
+          sel.removeAllRanges();
+          sel.addRange(range);
+          const ok = document.execCommand("copy");
+          sel.removeAllRanges();
+          document.body.removeChild(span);
+          if (ok) return true;
+        } catch(e){}
+        return false;
+      }
+      function flash(btn, text, ok=true){
+        const orig = btn.textContent;
+        btn.textContent = ok ? (text || "已复制") : (text || "复制失败");
+        btn.style.filter = ok ? "saturate(1.4)" : "grayscale(0.7)";
+        setTimeout(()=>{ btn.textContent = orig; btn.style.filter=""; }, 1300);
+      }
+
+      async function doCopy(){
+        const ok = await copyText(wxText.textContent.trim());
+        if (ok) {
+          flash(copyBtn, "已复制", true);
+        } else {
+          openModal();
+        }
+      }
+      wxText.addEventListener("click", doCopy);
+      copyBtn.addEventListener("click", doCopy);
+
+      function openModal(){
+        mask.style.display = "flex";
+        requestAnimationFrame(()=>{
+          wxInput.focus({ preventScroll: true });
+          wxInput.select();
+          wxInput.setSelectionRange(0, 99999);
+        });
+      }
+      function closeModal(){
+        mask.style.display = "none";
+      }
+      copyAlt.addEventListener("click", openModal);
+      mClose.addEventListener("click", closeModal);
+
+      mCopy.addEventListener("click", async ()=>{
+        const ok = await copyText(wxInput.value);
+        if (ok) {
+          mCopy.textContent = "已复制";
+          setTimeout(closeModal, 600);
+        } else {
+          mCopy.textContent = "请长按选择复制";
+        }
+        setTimeout(()=>{ mCopy.textContent = "复制"; }, 1400);
+      });
+
+      mask.addEventListener("click", (e)=>{ if(e.target === mask) closeModal(); });
+
+      $("#year").textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
